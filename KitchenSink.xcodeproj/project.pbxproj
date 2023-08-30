@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8B9BE5A2A9E402A0089D82F /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9BE592A9E402A0089D82F /* GalleryViewController.swift */; };
+		F8EAFEE42A9F555100994E0F /* GalleryMultiselectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EAFEE32A9F555100994E0F /* GalleryMultiselectionViewController.swift */; };
+		F8EAFEE62A9F55BD00994E0F /* GalleryMultiselectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EAFEE52A9F55BD00994E0F /* GalleryMultiselectionViewCell.swift */; };
 		F8EC227D2A9E28F100EEFD18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC227C2A9E28F100EEFD18 /* AppDelegate.swift */; };
 		F8EC227F2A9E28F100EEFD18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC227E2A9E28F100EEFD18 /* SceneDelegate.swift */; };
 		F8EC22812A9E28F100EEFD18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC22802A9E28F100EEFD18 /* ViewController.swift */; };
@@ -17,6 +20,7 @@
 		F8EC22972A9E28F300EEFD18 /* KitchenSinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC22962A9E28F300EEFD18 /* KitchenSinkTests.swift */; };
 		F8EC22A12A9E28F300EEFD18 /* KitchenSinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC22A02A9E28F300EEFD18 /* KitchenSinkUITests.swift */; };
 		F8EC22A32A9E28F300EEFD18 /* KitchenSinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC22A22A9E28F300EEFD18 /* KitchenSinkUITestsLaunchTests.swift */; };
+		F8EF2DB12A9F2642000ACE1E /* GalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EF2DB02A9F2642000ACE1E /* GalleryViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8B9BE592A9E402A0089D82F /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		F8EAFEE32A9F555100994E0F /* GalleryMultiselectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryMultiselectionViewController.swift; sourceTree = "<group>"; };
+		F8EAFEE52A9F55BD00994E0F /* GalleryMultiselectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryMultiselectionViewCell.swift; sourceTree = "<group>"; };
 		F8EC22792A9E28F100EEFD18 /* KitchenSink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenSink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EC227C2A9E28F100EEFD18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8EC227E2A9E28F100EEFD18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		F8EC229C2A9E28F300EEFD18 /* KitchenSinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenSinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EC22A02A9E28F300EEFD18 /* KitchenSinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenSinkUITests.swift; sourceTree = "<group>"; };
 		F8EC22A22A9E28F300EEFD18 /* KitchenSinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenSinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8EF2DB02A9F2642000ACE1E /* GalleryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8B9BE582A9E400E0089D82F /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				F8B9BE592A9E402A0089D82F /* GalleryViewController.swift */,
+				F8EF2DB02A9F2642000ACE1E /* GalleryViewCell.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		F8EAFEE22A9F552D00994E0F /* GalleryMultiselection */ = {
+			isa = PBXGroup;
+			children = (
+				F8EAFEE32A9F555100994E0F /* GalleryMultiselectionViewController.swift */,
+				F8EAFEE52A9F55BD00994E0F /* GalleryMultiselectionViewCell.swift */,
+			);
+			path = GalleryMultiselection;
+			sourceTree = "<group>";
+		};
 		F8EC22702A9E28F100EEFD18 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +127,8 @@
 		F8EC227B2A9E28F100EEFD18 /* KitchenSink */ = {
 			isa = PBXGroup;
 			children = (
+				F8EAFEE22A9F552D00994E0F /* GalleryMultiselection */,
+				F8B9BE582A9E400E0089D82F /* Gallery */,
 				F8EC227C2A9E28F100EEFD18 /* AppDelegate.swift */,
 				F8EC227E2A9E28F100EEFD18 /* SceneDelegate.swift */,
 				F8EC22802A9E28F100EEFD18 /* ViewController.swift */,
@@ -263,8 +291,12 @@
 			files = (
 				F8EC22812A9E28F100EEFD18 /* ViewController.swift in Sources */,
 				F8EC227D2A9E28F100EEFD18 /* AppDelegate.swift in Sources */,
+				F8EAFEE62A9F55BD00994E0F /* GalleryMultiselectionViewCell.swift in Sources */,
+				F8B9BE5A2A9E402A0089D82F /* GalleryViewController.swift in Sources */,
 				F8EC227F2A9E28F100EEFD18 /* SceneDelegate.swift in Sources */,
 				F8EC22872A9E28F100EEFD18 /* KitchenSink.xcdatamodeld in Sources */,
+				F8EAFEE42A9F555100994E0F /* GalleryMultiselectionViewController.swift in Sources */,
+				F8EF2DB12A9F2642000ACE1E /* GalleryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +476,7 @@
 				DEVELOPMENT_TEAM = KBRY7FXQ2L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KitchenSink/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Show a gallery with photos to select from";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,6 +505,7 @@
 				DEVELOPMENT_TEAM = KBRY7FXQ2L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KitchenSink/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Show a gallery with photos to select from";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
